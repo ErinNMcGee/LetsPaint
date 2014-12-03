@@ -168,6 +168,7 @@
 				TargetAttributes = {
 					C66DA77F1A2F934B006EB0AA = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7BKJYS6U5G;
 					};
 					C66DA7981A2F934B006EB0AA = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -343,9 +344,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Erin McGee (7BKJYS6U5G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = letspaint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7443b65f-fab5-4e38-a645-2e3198222c0e";
 			};
 			name = Debug;
 		};
@@ -353,9 +358,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Erin McGee (7BKJYS6U5G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = letspaint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7443b65f-fab5-4e38-a645-2e3198222c0e";
 			};
 			name = Release;
 		};
